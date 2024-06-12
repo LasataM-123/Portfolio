@@ -8,8 +8,8 @@ body{
 }
 .background{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -10px;
+    left: -10px;
     width: 100%;
     height: 75%;
     background-image: url("https://images.unsplash.com/photo-1526925539332-aa3b66e35444?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -56,13 +56,13 @@ p{
 }
 .part2 h1{
     font-weight: bold;
-    background-image: linear-gradient(to right, #092994, #7e86dc, rgb(113, 162, 226)); 
+    background-image: linear-gradient(to right, #0b31ab, #7e86dc, rgb(113, 162, 226)); 
     background-clip: text;
     color: transparent;
 }
 .part2 .resume{
     font-size: 20px;
-    background-image: linear-gradient(to right, #0d2678, #7e86dc, rgb(103, 149, 210));
+    background-image: linear-gradient(to right, #0f2c8d, #7e86dc, rgb(103, 149, 210));
     width:70%;
     border:1px solid white;
 }
@@ -77,7 +77,7 @@ p{
 }
 
 .part2 p strong{
-    background-image: linear-gradient(to right, #0a2992, #5138a9, rgb(67, 75, 188)); 
+    background-image: linear-gradient(to right, #092994, #7e86dc, rgb(113, 162, 226));  
     background-clip: text;
     color: transparent;
 }
@@ -105,7 +105,7 @@ p{
 }
 .part3 h1{
     font-weight: bold;
-    background-image: linear-gradient(to right, #152b72, #553ab1, rgb(113, 162, 226)); 
+    background-image: linear-gradient(to right, #0b31ab, #535ed6, rgb(113, 162, 226)); 
     background-clip: text;
     color: transparent;
     font-size: 50px;
@@ -132,7 +132,7 @@ p{
 }
 .part3 th h2{
     font-weight: bold;
-    background-image: linear-gradient(to right, #152b72, #7458cf, rgb(74, 79, 212)); 
+    background-image:linear-gradient(to right, #0b31ab, #7e86dc, rgb(113, 162, 226));  
     background-clip: text;
     color: transparent;
 }
@@ -144,7 +144,7 @@ p{
 }
 .part4 h1{
     font-weight: bold;
-    background-image: linear-gradient(to right, #152b72, #553ab1, rgb(113, 162, 226)); 
+    background-image: linear-gradient(to right, #0b31ab, #5963d2, rgb(113, 162, 226));  
     background-clip: text;
     color: transparent;
     font-size: 50px;
@@ -172,56 +172,248 @@ p{
 }
 .part4 th h2{
     font-weight: bold;
-    background-image: linear-gradient(to right, #152b72, #7458cf, rgb(74, 79, 212)); 
+    background-image: linear-gradient(to right, #0b31ab, #7e86dc, rgb(113, 162, 226)); 
     background-clip: text;
     color: transparent;
 }
 .part5{
-    padding: 10px;
+    padding: 10px 30px 70px 30px;
     margin-top: 10em;
     border: 2px solid rgba(228, 219, 219,0.5);
     border-radius: 10px;
 }
 .part5 h1{
     font-weight: bold;
-    background-image: linear-gradient(to right, #152b72, #553ab1, rgb(113, 162, 226)); 
+    background-image: linear-gradient(to right, #0b31ab, #7e86dc, rgb(113, 162, 226)); 
     background-clip: text;
     color: transparent;
     font-size: 50px;
 }
-.part5 table{
-    margin-top: -20em;
-    margin-left: -15em;
-    margin-right: -20em;
-    border-spacing: 25em;
+.part5 table {
+    margin-top: 3em;
+    width: 80%;  
+    border-spacing: 30px;
 }
-.part5 th{
+.part5 th {
     font-size: 20px;
     color: aliceblue;
+    text-align: left;
 }
-.part5 .html{
-    margin-left:3px;
-    width: 700%;
-    height: 5px;
-    background: linear-gradient(to right, #704cd3 80%, rgba(240, 248, 238, 0.619) 80%);
+.part5 .html {
+    margin-left: 3px;
+    width: 80%; 
+    height: 20px;  
+    background: linear-gradient(to right, #5847c6 80%, rgba(240, 248, 238, 0.619) 80%);
     margin-top: 10px;
     position: relative;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.part5 .html::after{
+.part5 .html::after {
     position: absolute;
-    content:"80%";
-    top:100%;
+    content: "80%";
+    bottom: 110%;
+    left: 90%;  
 }
-.part5 .css{
-    margin-left:3px;
-    width: 900%;
-    height: 5px;
-    background: linear-gradient(to right, #704cd3 70%, rgba(240, 248, 238, 0.619) 70%);
+.part5 .css {
+    margin-left: 3px;
+    width: 140%;  
+    height: 20px;  
+    background: linear-gradient(to right, #5847c6 70%, rgba(240, 248, 238, 0.619) 70%);
     margin-top: 10px;
     position: relative;
+    padding: 10px;
+    box-sizing: border-box;
 }
-.part5 .css::after{
+.part5 .css::after {
     position: absolute;
-    content:"70%";
-    top:100%;
+    content: "70%";
+    bottom: 110%;
+    left: 90%;  
+}
+.part5 .python {
+    margin-left: 3px;
+    width: 80%; 
+    height: 20px;  
+    background: linear-gradient(to right, #5847c6 70%, rgba(240, 248, 238, 0.619) 70%);
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.part5 .python::after {
+    position: absolute;
+    content: "70%";
+    bottom: 110%;
+    left: 90%; 
+}
+.part5 .java{
+    margin-left: 3px;
+    width: 140%; 
+    height: 20px;  
+    background: linear-gradient(to right, #5847c6 75%, rgba(240, 248, 238, 0.619) 75%);
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.part5 .java::after {
+    position: absolute;
+    content: "75%";
+    bottom: 110%;
+    left: 90%; 
+}
+.part5 .js{
+    margin-left: 3px;
+    width:80%;
+    height: 20px;
+    background: linear-gradient(to right, #5847c6 65%, rgba(240, 248, 238, 0.619) 65%);
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.part5 .js::after{
+    position: absolute;
+    content: "65%";
+    bottom: 110%;
+    left: 90%; 
+}
+.part5 .mysql{
+    margin-left: 3px;
+    width:140%;
+    height: 20px;
+    background: linear-gradient(to right, #5847c6 80%, rgba(240, 248, 238, 0.619) 80%);
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.part5 .mysql::after{
+    position: absolute;
+    content: "80%";
+    bottom: 110%;
+    left: 90%;
+}
+.part5 .skills{
+    margin: 150px 10px 10px 10px;
+    display: flex;
+}
+.part5 .skills1{
+    margin-right: -10px;
+    background-color: rgb(31, 30, 30);
+}
+.part5 .skills3{
+    background-color: rgb(31, 30, 30);
+    width: 200%;
+}
+.part5 .skills1 h1, .part5 .skills3 h1{
+    color: aliceblue;
+}
+.part5 .skills1 h2, .part5 .skills3 h2{
+    background-image: linear-gradient(to right, #294cc2, #505bd7, rgb(63, 121, 196)); 
+    background-clip: text;
+    color: transparent;
+}
+.part5 .skills2{
+    transform: scale(1.15);
+    background: linear-gradient(to right, #0b31ab, #7e86dc, rgb(113, 162, 226)); 
+}
+.part5 .skills2 h1{
+    color:  rgb(31, 30, 30);
+}
+.part6{
+    padding: 10px 10px 70px 10px;
+    margin-top: 10em;
+    border: 2px solid rgba(228, 219, 219,0.5);
+    border-radius: 10px;
+}
+.part6 h1{ 
+    font-weight: bold;
+    background-image: linear-gradient(to right, #0b31ab, #7e86dc, rgb(113, 162, 226)); 
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+.part6 .works1{
+    margin-left: -10px;
+    padding: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+.part6 img {
+    width: 300px;
+    height: 300px;
+
+}
+.part6 .works2{
+    margin: -55px 0px 0px 40px;
+    display: flex;
+    gap: 10px;
+}
+.part6 .works1 div:hover{
+    cursor:pointer;
+    background-color:  rgba(199, 189, 170, 0.5);
+}
+.part6 .works2 div:hover{
+    cursor:pointer;
+    background-color: rgba(199, 189, 170, 0.5);
+}
+.part7{
+    padding: 10px 150px 10px 150px;
+    margin-top: 10em;
+}
+.part7 hr{
+    width: 17%;
+    border-style:none ;
+    height:3px;
+    background-color: #5847c6;
+}
+.part7 h3{
+    margin-top: 50px;
+    letter-spacing: 3px;
+    color: aliceblue;
+}
+.part7 .one{
+    line-height: 1.4;
+    margin-top: 80px;
+    font-size: 50px;
+}
+.part7 .two{
+    color: grey;
+    margin-top: 80px;
+    font-size: 20px;
+}
+.part7 .three{
+    margin-top: 20px;
+    font-size: 30px;
+    color: #5847c6;
+}
+.part7 div{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+    justify-content: center;
+}
+.part7 div i{
+    transform: scale(1.5);
+    color: white;
+    background: linear-gradient(to right, #062aa2, #656ecd, rgb(113, 162, 226)); 
+    padding: 8px;
+    border-radius: 50%;
+}
+.part7 div i:hover{
+    cursor: pointer;
+    filter: invert(1);
+}
+.part8 hr{
+    margin-left: -50px;
+    width: 108%;
+    height: 1px;
+    border-style: none;
+    background-color: rgba(119, 118, 118, 0.5);
+    margin-top: 50px;
+}
+.part8 footer{
+    padding: 20px;
+    background-image:linear-gradient(to right, #0f3bc9, #7e86dc, rgb(113, 162, 226));  
+    background-clip: text;
+    color: transparent;
 }
