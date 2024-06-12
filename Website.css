@@ -341,6 +341,7 @@ p{
 .part6 img {
     width: 300px;
     height: 300px;
+    z-index: 1;
 
 }
 .part6 .works2{
@@ -348,13 +349,9 @@ p{
     display: flex;
     gap: 10px;
 }
-.part6 .works1 div:hover{
+.part6 .works1 div:hover, .part6 .works2 div:hover{
     cursor:pointer;
     background-color:  rgba(199, 189, 170, 0.5);
-}
-.part6 .works2 div:hover{
-    cursor:pointer;
-    background-color: rgba(199, 189, 170, 0.5);
 }
 .part7{
     padding: 10px 150px 10px 150px;
